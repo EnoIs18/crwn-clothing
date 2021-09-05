@@ -1,8 +1,9 @@
 import { combineReducers } from 'redux';
 
 import userReducer from './user/user.reducer';
+import cartReducer from './cart/cart.reducer';
 
 export default combineReducers({
-  user: userReducer
+  user: userReducer,
+  cart: cartReducer
 });
-// a reducer is a pure function that takes an action and the previous state of the app and return a new state
