@@ -1118,9 +1118,7 @@
   },
   "homepage": "https://github.com/EnoIs18/crwn-clothing#readme",
   
-    "name": "myapp",
-    "description": "a really cool app",
-    "version": "1.0.0",
+   
     "engines": {
       "node": "14.x",
         "npm": "7.x"
